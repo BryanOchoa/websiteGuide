@@ -1,0 +1,218 @@
+/*General styling*/
+
+body {
+    background-color: #454545;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Title */
+
+.title {
+    color: white;
+    font-family: 'Orbitron';
+    border: 15px solid #FF6000;
+    background-color: #FF6000;
+    width: 50%;
+    text-align: center;
+    margin: 30px auto;
+    box-shadow: 10px 5px 10px #61677A;
+    border-radius: 15%;
+}
+
+/* Colors */
+
+.color-text {
+    margin-top: 50px;
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    background-color: #61677A;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Orbitron';
+    letter-spacing: 1pc;
+    font-weight: 800;
+    text-shadow: #000 2px 0 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.color-container {
+    display: flex;
+    border: 2px solid #000;
+    background-color: #61677A;
+    border-radius: 5px;
+    box-shadow: 10px 5px 10px #61677A;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.color-block {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-right: 2px solid #000;
+    font-family: 'Zilla Slab';
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    background-color: inherit;
+    border: 2px solid white;
+    margin: 0 auto 10px;
+    padding: 5px;
+}
+
+/* Font */
+
+.font-title {
+    margin-top: 60px;
+    text-align: center;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    padding: 15px;
+    background-color: #61677A;
+    font-family: 'Orbitron';
+    font-weight: 800;
+    letter-spacing: 1pc;
+    color: white;
+    text-shadow: #000 2px 0 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.font-container {
+    display: flex;
+    border: 2px solid #000;
+    background-color: #FF6000;
+    border-radius: 5px;
+    box-shadow: 10px 5px 10px #61677A;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.font-box {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-right: 2px solid #000;
+    font-family: 'Advent Pro';
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-left: 10px;
+}
+
+.orbitron {
+    font-family: 'Orbitron';
+    color: white;
+}
+
+.orbitron .orb-400 {
+    color: #000;
+    font-weight: 400;
+}
+
+.orbitron .orb-600 {
+    color: #000;
+    font-weight: 600;
+}
+
+.orbitron .orb-800 {
+    color: #000;
+    font-weight: 800;
+}
+
+.advent-pro {
+    font-family: 'Advent Pro';
+    color: white;
+}
+
+.advent-pro .adv-400 {
+    color: #000;
+    font-weight: 400;
+}
+
+.advent-pro .adv-600 {
+    color: #000;
+    font-weight: 600;
+}
+
+.advent-pro .adv-800 {
+    color: #000;
+    font-weight: 900;
+}
+
+.zilla-slab {
+    font-family: 'Zilla Slab';
+    color: white;
+}
+
+.zilla-slab .zil-400 {
+    font-weight: 300;
+    color: #000;
+}
+
+.zilla-slab .zil-600 {
+    color: #000;
+    font-weight: 600;
+}
+
+.zilla-slab .zil-800 {
+    font-weight: 700;
+    color: #000;
+}
+
+/* Text Style */
+
+.text-title {
+    margin-top: 60px;
+    text-align: center;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    padding: 15px;
+    background-color: #61677A;
+    font-family: 'Orbitron';
+    font-weight: 800;
+    letter-spacing: 1pc;
+    color: white;
+    text-shadow: #000 2px 0 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text-box {
+    border: 2px solid #000;
+    background-color: #FFE6C7;
+    border-radius: 5px;
+    box-shadow: 10px 5px 10px #61677A;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Orbitron';
+    margin-bottom: 5pc;
+}
+
+/* Footer */
+
+footer {
+    font-family: 'Orbitron';
+    font-size: small;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #333;
+    color: #FFE6C7;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
